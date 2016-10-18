@@ -1,6 +1,6 @@
 {
   "name": "msgpack5-stream",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A duplex stream wrapper for msgpack5 ",
   "main": "index.js",
   "scripts": {
@@ -31,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/watson/msgpack5-stream/issues"
   },
-  "homepage": "https://github.com/watson/msgpack5-stream#readme"
+  "homepage": "https://github.com/watson/msgpack5-stream#readme",
+  "coordinates": [
+    52.6481661,
+    -7.197170099999999
+  ]
 }
