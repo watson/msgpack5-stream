@@ -22,7 +22,7 @@ var server = net.createServer(function (socket) {
 })
 
 server.listen(3000, function () {
-  var dup = msgpack5(net.connect(3000))
+  var dup = msgpack(net.connect(3000))
   dup.write({hello: 'world'})
 })
 ```
